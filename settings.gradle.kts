@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Zon"
+rootProject.name = "Tomato+"
 include(":app")

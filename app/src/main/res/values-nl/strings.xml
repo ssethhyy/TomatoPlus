@@ -1,4 +1,4 @@
-ï»¿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="alarm">Alarm</string>
     <string name="alarm_desc">Laat alarm afgaan wanneer de timer afloopt</string>
@@ -33,7 +33,7 @@
     <string name="pomodoro_info">Een \"sessie\" is een reeks pomodoro-intervallen die bestaan uit focusintervallen, korte pauzes en een lange pauze. De laatste pauze van een sessie is altijd een lange pauze.</string>
     <string name="restart">Herstart</string>
     <string name="session_length">Sessielengte</string>
-    <string name="session_length_desc">Focusintervallen in Ã©Ã©n sessie: %1$d</string>
+    <string name="session_length_desc">Focusintervallen in één sessie: %1$d</string>
     <string name="settings">Instellingen</string>
     <string name="short_break">Korte pauze</string>
     <string name="skip">Skip</string>
@@ -60,7 +60,7 @@
     <string name="sound">Geluid</string>
     <string name="dnd">Niet Storen</string>
     <string name="dnd_desc">Niet Storen inschakelen bij het gebruik van een Focus timer</string>
-    <string name="get_plus">Koop Zon+</string>
+    <string name="get_plus">Koop Tomato++</string>
     <string name="dynamic_color">Dynamische kleuren</string>
     <string name="dynamic_color_desc">Pas thema kleuren aan op basis van je achtergrond</string>
     <string name="language">Taal</string>

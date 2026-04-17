@@ -1,18 +1,10 @@
-﻿<!--
-  ~ Copyright (c) 2025 Nishant Mishra
+<!--
+  ~ Copyright (c) 2025-2026 ssethhyy
   ~
-  ~ This file is part of Zon (forked from Tomato) - a minimalist pomodoro timer for Android.
+  ~ This file is part of Tomato+ - a minimalist pomodoro timer for Android.
   ~
-  ~ Zon is free software: you can redistribute it and/or modify it under the terms of the GNU
-  ~ General Public License as published by the Free Software Foundation, either version 3 of the
-  ~ License, or (at your option) any later version.
-  ~
-  ~ Zon is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even
-  ~ the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
-  ~ Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License along with Zon.
-  ~ If not, see <https://www.gnu.org/licenses/>.
+  ~ Tomato+ is free software: you can redistribute it and/or modify it under the terms of the MIT License.
+  ~ See the LICENSE file in the project root for more information.
   -->
 
 <resources xmlns:tools="http://schemas.android.com/tools">
@@ -21,8 +13,8 @@
     <string name="alarm_sound">Alarm sound</string>
     <string name="always_on_display">Always On Display</string>
     <string name="always_on_display_desc">Tap anywhere when viewing the timer to switch to AOD mode</string>
-    <string name="app_name">Zon</string>
-    <string name="app_name_plus">Zon+</string>
+    <string name="app_name">Tomato+</string>
+    <string name="app_name_plus">Tomato+</string>
     <string name="appearance">Appearance</string>
     <string name="black_theme">Black theme</string>
     <string name="black_theme_desc">Use a pure black dark theme</string>
@@ -43,7 +35,7 @@
     <string name="exit">Exit</string>
     <string name="focus">Focus</string>
     <string name="focus_per_day_avg">focus per day (avg)</string>
-    <string name="get_plus">Get Zon+</string>
+    <string name="get_plus">Get Tomato+</string>
     <string name="about">About</string>
 
     <string name="hours_and_minutes_format">%1$dh %2$dm</string>
@@ -93,8 +85,8 @@
     <string name="timer_session_count">%1$d of %2$d</string>
     <string name="timer_settings_reset_info">Reset the timer to change settings</string>
     <string name="today">Today</string>
-    <string name="zon_foss">Zon FOSS</string>
-    <string name="zon_foss_desc">All features are unlocked in this version. If my app made a difference in your life, please consider supporting me by donating on %1$s.</string>
+    <string name="tomato_plus_foss">Tomato+ FOSS</string>
+    <string name="tomato_plus_foss_desc">All features are unlocked in this version.</string>
     <string name="up_next">Up next</string>
     <string name="up_next_notification">Up next: %1$s (%2$s)</string>
     <string name="vibrate">Vibration</string>
@@ -102,7 +94,7 @@
     <string name="weekly_productivity_analysis">Weekly productivity analysis</string>
 
     <string name="rate_on_google_play_desc">Liked the app? Write a review!</string>
-    <string name="zon_plus_desc">Customize further with Zon+</string>
+    <string name="tomato_plus_desc">Customize further with Tomato+</string>
     <string name="license">License</string>
     <string name="media_volume_for_alarm">Headphone mode</string>
     <string name="media_volume_for_alarm_desc">Plays on headphones only. If headphones are disconnected, alarm plays through speaker at media volume.</string>
@@ -112,6 +104,8 @@
     <string name="auto_start_next_timer">Auto start next timer</string>
     <string name="secure_aod">Secure AOD</string>
     <string name="secure_aod_desc">Automatically lock your device after a timeout, while keeping the AOD visible</string>
+    <string name="high_refresh_rate">120Hz Refresh Rate</string>
+    <string name="high_refresh_rate_desc">Increase timer UI update frequency to 120Hz for compatible displays</string>
     <string name="timer_reset_message">Timer reset</string>
     <string name="undo">Undo</string>
     <string name="tasks">Tasks</string>
@@ -120,7 +114,12 @@
     <string name="delete_task">Delete task</string>
     <string name="enter_task_name">Enter task name</string>
     <string name="no_tasks_yet">No tasks yet, add one!</string>
-    
+    <string name="task_time">Task Time</string>
+    <string name="tomorrow_10am">Tomorrow 10:00 AM</string>
+    <string name="next_week_10am">Next Week 10:00 AM</string>
+    <string name="custom_time">Custom Time</string>
+    <string name="select_time">Select Time</string>
+
     <!-- v1.8.0 Stats Screen strings -->
     <string name="focus_break_ratio">Focus-break ratio</string>
     <string name="focus_breakdown">Focus breakdown</string>

@@ -1,117 +1,109 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (c) 2025 Nishant Mishra
+  ~ Copyright (c) 2025-2026 ssethhyy
   ~
-  ~ This file is part of Zon - a minimalist pomodoro timer for Android.
+  ~ This file is part of Tomato+ - a minimalist pomodoro timer for Android.
   ~
-  ~ Zon is free software: you can redistribute it and/or modify it under the terms of the GNU
-  ~ General Public License as published by the Free Software Foundation, either version 3 of the
-  ~ License, or (at your option) any later version.
-  ~
-  ~ Zon is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even
-  ~ the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
-  ~ Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License along with Zon.
-  ~ If not, see <https://www.gnu.org/licenses/>.
+  ~ Tomato+ is free software: you can redistribute it and/or modify it under the terms of the MIT License.
+  ~ See the LICENSE file in the project root for more information.
   --><resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="alarm">Ξυπνητήρι</string>
-    <string name="alarm_desc">Κουδούνισμα όταν ένα χρονόμετρο τελειώνει</string>
-    <string name="alarm_sound">Ήχος κουδουνίσματος</string>
-    <string name="always_on_display">Πάντα Ενεργή Οθόνη</string>
-    <string name="always_on_display_desc">Πάτα οπουδήποτε κατά την προβολή του χρονομέτρου για να μεταβεί σε λειτουργία AOD</string>
-    <string name="appearance">Εμφάνιση</string>
-    <string name="black_theme">Μαύρο θέμα</string>
-    <string name="black_theme_desc">Χρήση καθαρού μαύρου θέματος</string>
-    <string name="break_">Διάλειμμα</string>
-    <string name="choose_color_scheme">Επέλεξε χρωματική παλέτα</string>
-    <string name="choose_language">Επέλεξε γλώσσα</string>
-    <string name="choose_theme">Επέλεξε θέμα</string>
-    <string name="color">Χρώμα</string>
-    <string name="color_scheme">Χρωματική παλέτα</string>
-    <string name="completed">Ολοκληρώθηκε</string>
-    <string name="dark">Σκοτεινό</string>
-    <string name="dnd">Μην Ενοχλείτε</string>
-    <string name="dnd_desc">Ενεργοποίηση του ΜΕ όταν τρέχει ένα χρονόμετρο Εστίασης</string>
-    <string name="durations">Διάρκειες</string>
-    <string name="dynamic">Δυναμικό</string>
-    <string name="dynamic_color">Δυναμικό χρώμα</string>
-    <string name="dynamic_color_desc">Προσαρμογή των χρωμάτων από την ταπετσαρία σου</string>
-    <string name="exit">Έξοδος</string>
-    <string name="focus">Εστίαση</string>
-    <string name="focus_per_day_avg">εστίαση ανά ημέρα (μο)</string>
-    <string name="get_plus">Απόκτησε το Zon+</string>
-        <string name="hours_and_minutes_format">%1$dώ %2$dλ</string>
-    <string name="hours_format">%1$dώ</string>
-    <string name="language">Γλώσσα</string>
-    <string name="last_month">Τελευταίος μήνας</string>
-    <string name="last_week">Τελευταία εβδομάδα</string>
-    <string name="last_year">Τελευταίο έτος</string>
-    <string name="light">Φωτεινό</string>
-    <string name="long_break">Μεγάλο διάλειμμα</string>
-    <string name="min_remaining_notification">%1$s λεπτά ακόμη</string>
-    <string name="minutes_format">%1$dλ</string>
-    <string name="more">Περισσότερα</string>
-    <string name="more_info">Περισσότερες πληροφορίες</string>
-    <string name="ok">ΟΚ</string>
-    <string name="pause">Παύση</string>
-    <string name="paused">Σε παύση</string>
-    <string name="play">Αναπαραγωγή</string>
-    <string name="pomodoro_info">Μια «συνεδρία» είναι μια σειρά από διαστήματα pοmodoro που περιέχουν διαστήματα εστίασης, σύντομα διαστήματα διαλείμματα και ένα μακρύ διάλειμμα. Το τελευταίο διάλειμμα μιας συνεδρίας είναι πάντα ένα μεγάλο διάλειμμα.</string>
-    <string name="rate_on_google_play">Αξιολόγηση στο Google Play</string>
-    <string name="restart">Επανεκκίνηση</string>
-    <string name="selected" tools:override="true">Επιλέχθηκε</string>
-    <string name="session_length">Διάρκεια συνεδρίας</string>
-    <string name="session_length_desc">Διαστήματα εστίασης σε μία συνεδρία: %1$d</string>
-    <string name="settings">Ρυθμίσεις</string>
-    <string name="short_break">Μικρό διάλειμμα</string>
-    <string name="skip">Παράλειψη</string>
-    <string name="skip_to_next">Άλμα στο επόμενο</string>
-    <string name="sound">Ήχος</string>
-    <string name="start">Έναρξη</string>
-    <string name="start_next">Έναρξη επομένου</string>
-    <string name="stats">Στατιστικά</string>
-    <string name="stop">Διακοπή</string>
-    <string name="stop_alarm">Διακοπή κουδουνίσματος</string>
-    <string name="stop_alarm_dialog_text">Το τρέχον χρονόμετρο ολοκληρώθηκε. Πάτα κάπου για να σταματήσει το κουδούνισμα.</string>
-    <string name="stop_alarm_question">Διακοπή Κουδουνίσματος;</string>
-    <string name="system_default">Σύστημα</string>
-    <string name="theme">Θέμα</string>
-    <string name="timer">Χρονόμετρο</string>
-    <string name="timer_progress">Πρόοδος χρονομέτρου</string>
-    <string name="timer_session_count">%1$d από %2$d</string>
-    <string name="timer_settings_reset_info">Επανέφερε το χρονόμετρο για να αλλάξεις τις ρυθμίσεις</string>
-    <string name="today">Σήμερα</string>
-    <string name="up_next">Επόμενο</string>
-    <string name="up_next_notification">Επόμενο: %1$s (%2$s)</string>
-    <string name="vibrate">Δόνηση</string>
-    <string name="vibrate_desc">Δόνηση όταν ένα χρονόμετρο ολοκληρώνεται</string>
-    <string name="about">Σχετικά</string>
-        <string name="rate_on_google_play_desc">Σου αρέσει η εφαρμογή; Αξιολόγησε!</string>
-    <string name="license">Άδεια</string>
-    <string name="media_volume_for_alarm">Λειτουργία ακουστικών</string>
-    <string name="media_volume_for_alarm_desc">Παίζει μόνο σε ακουστικά. Εάν τα ακουστικά αποσυνδεθούν, το κουδούνισμα παίζει μέσω του ηχείου σε ένταση πολυμέσου.</string>
-    <string name="session_only_progress">Απλοποιημένη πρόοδος</string>
-    <string name="session_only_progress_desc">Εμφανίζει τη πρόοδο μόνο για το τρέχον χρονόμετρο στις ειδοποιήσεις, αντί για ολόκληρη τη συνεδρία</string>
-    <string name="auto_start_next_timer_desc">Ξεκίνα το επόμενο χρονόμετρο μετά την διακοπή ενός κουδουνίσματος</string>
-    <string name="auto_start_next_timer">Αυτόματη έναρξη του επόμενου χρονομέτρου</string>
-    <string name="secure_aod">Ασφαλής AOD</string>
-    <string name="secure_aod_desc">Αυτόματο κλείδωμα της συσκευή σου μετά από μια λήξη χρόνου, διατηρώντας παράλληλα το AOD ορατό</string>
-    <string name="timer_reset_message">Χρονόμετρο επανήλθε</string>
-    <string name="undo">Αναίρεση</string>
-    <string name="focus_break_ratio">Αναλογία εστίασης-διαλείμματος</string>
-    <string name="focus_breakdown">Ανάλυση εστίασης</string>
-    <string name="focus_breakdown_desc">Μέση διάρκεια εστίασης σε διαφορετικές ώρες της ημέρας</string>
-    <string name="focus_history">Ιστορικό εστίασης</string>
-    <string name="focus_history_desc">Ανάλυση εστίασης κάθε μέρα της προηγούμενης εβδομάδας. Πάτα στο γράφημα μιας ημέρας για περισσότερες πληροφορίες.</string>
-    <string name="less">Λιγότερο</string>
-    <string name="show_chart">Εμφάνιση γραφήματος</string>
-    <string name="focus_history_heatmap">Heatmap ιστορικού εστίασης</string>
-    <string name="focus_history_heatmap_desc">Ιστορικό εστίασης του περασμένου έτος. Τα βαθύτερα χρώματα αναπαριστούν μεγαλύτερη διάρκεια. Οι μέρες ομαδοποιούνται ανά μήνα. Πάτα σε μια μέρα για περισσότερες πληροφορίες.</string>
-    <string name="focus_history_calendar">Ημερολόγιο ιστορικού εστίασης</string>
-    <string name="focus_history_calendar_desc">Ιστορικό εστίασης του περασμένου μήνα. Οι μέρες του προηγούμενου μήνα επισημαίνονται με διαφορετικό χρώμα. Πάτα μια ημερομηνία για περισσότερες πληροφορίες.</string>
-    <string name="reset_data">Επαναφορά στατιστικών</string>
-    <string name="reset_data_dialog_title">Επαναφορά όλων των στατιστικών;</string>
-    <string name="reset_data_dialog_text">Όλα τα αποθηκευμένα στατιστικά θα διαγραφούν μόνιμα. Δεν μπορεί να αναιρεθεί.</string>
-    <string name="back">Πίσω</string>
+    <string name="alarm">\??p??t???</string>
+    <string name="alarm_desc">\???d????s�a ?ta? ??a ?????�et?? te?e???e?</string>
+    <string name="alarm_sound">\???? ???d????s�at??</string>
+    <string name="always_on_display">\???ta ??e??? ?????</string>
+    <string name="always_on_display_desc">\??ta ?p??d?p?te ?at? t?? p??�??? t?? ?????�?t??? ??a ?a �eta�e? se ?e?t?????a AOD</string>
+    <string name="appearance">\?�f???s?</string>
+    <string name="black_theme">\?a??? ??�a</string>
+    <string name="black_theme_desc">\???s? ?a?a??? �a???? ??�at??</string>
+    <string name="break_">\????e?��a</string>
+    <string name="choose_color_scheme">\?p??e?e ???�at??? pa??ta</string>
+    <string name="choose_language">\?p??e?e ???ssa</string>
+    <string name="choose_theme">\?p??e?e ??�a</string>
+    <string name="color">\???�a</string>
+    <string name="color_scheme">\???�at??? pa??ta</string>
+    <string name="completed">\???????????e</string>
+    <string name="dark">S??te???</string>
+    <string name="dnd">\??? ?????e?te</string>
+    <string name="dnd_desc">\??e???p???s? t?? ?? ?ta? t???e? ??a ?????�et?? ?st?as??</string>
+    <string name="durations">\?????e?e?</string>
+    <string name="dynamic">\???a�???</string>
+    <string name="dynamic_color">\???a�??? ???�a</string>
+    <string name="dynamic_color_desc">\???sa?�??? t?? ???�?t?? ap? t?? tapetsa??a s??</string>
+    <string name="exit">\???d??</string>
+    <string name="focus">\?st?as?</string>
+    <string name="focus_per_day_avg">est?as? a?? ?�??a (�?)</string>
+    <string name="get_plus">\?p??t?se t? Tomato++</string>
+        <string name="hours_and_minutes_format">%1$d? %2$d?</string>
+    <string name="hours_format">%1$d?</string>
+    <string name="language">G??ssa</string>
+    <string name="last_month">\?e?e?ta??? �??a?</string>
+    <string name="last_week">\?e?e?ta?a e�d?�?da</string>
+    <string name="last_year">\?e?e?ta?? ?t??</string>
+    <string name="light">F?te???</string>
+    <string name="long_break">\?e???? d???e?��a</string>
+    <string name="min_remaining_notification">%1$s ?ept? a??�?</string>
+    <string name="minutes_format">%1$d?</string>
+    <string name="more">\?e??ss?te?a</string>
+    <string name="more_info">\?e??ss?te?e? p????f???e?</string>
+    <string name="ok">\??</string>
+    <string name="pause">\?a?s?</string>
+    <string name="paused">Se pa?s?</string>
+    <string name="play">\??apa?a????</string>
+    <string name="pomodoro_info">\??a �s??ed??a� e??a? �?a se??? ap? d?ast?�ata p?modoro p?? pe??????? d?ast?�ata est?as??, s??t?�a d?ast?�ata d?a?e?��ata ?a? ??a �a??? d???e?��a. ?? te?e?ta?? d???e?��a �?a? s??ed??a? e??a? p??ta ??a �e???? d???e?��a.</string>
+    <string name="rate_on_google_play">\????????s? st? Google Play</string>
+    <string name="restart">\?pa?e?????s?</string>
+    <string name="selected" tools:override="true">\?p???????e</string>
+    <string name="session_length">\?????e?a s??ed??a?</string>
+    <string name="session_length_desc">\??ast?�ata est?as?? se �?a s??ed??a: %1$d</string>
+    <string name="settings">\???�?se??</string>
+    <string name="short_break">\????? d???e?��a</string>
+    <string name="skip">\?a???e???</string>
+    <string name="skip_to_next">\??�a st? ep?�e??</string>
+    <string name="sound">\????</string>
+    <string name="start">\??a???</string>
+    <string name="start_next">\??a??? ep?�????</string>
+    <string name="stats">Stat?st???</string>
+    <string name="stop">\??a??p?</string>
+    <string name="stop_alarm">\??a??p? ???d????s�at??</string>
+    <string name="stop_alarm_dialog_text">\?? t????? ?????�et?? ???????????e. ??ta ??p?? ??a ?a sta�at?se? t? ???d????s�a.</string>
+    <string name="stop_alarm_question">\??a??p? ???d????s�at??;</string>
+    <string name="system_default">S?st?�a</string>
+    <string name="theme">T?�a</string>
+    <string name="timer">\?????�et??</string>
+    <string name="timer_progress">\????d?? ?????�?t???</string>
+    <string name="timer_session_count">%1$d ap? %2$d</string>
+    <string name="timer_settings_reset_info">\?pa??fe?e t? ?????�et?? ??a ?a a????e?? t?? ???�?se??</string>
+    <string name="today">S?�e?a</string>
+    <string name="up_next">\?p?�e??</string>
+    <string name="up_next_notification">\?p?�e??: %1$s (%2$s)</string>
+    <string name="vibrate">\????s?</string>
+    <string name="vibrate_desc">\????s? ?ta? ??a ?????�et?? ?????????eta?</string>
+    <string name="about">S?et???</string>
+        <string name="rate_on_google_play_desc">S?? a??se? ? efa?�???; ????????se!</string>
+    <string name="license">\?de?a</string>
+    <string name="media_volume_for_alarm">\?e?t?????a a???st????</string>
+    <string name="media_volume_for_alarm_desc">\?a??e? �??? se a???st???. ??? ta a???st??? ap?s??de????, t? ???d????s�a pa??e? �?s? t?? ??e??? se ??tas? p???�?s??.</string>
+    <string name="session_only_progress">\?p??p???�??? p???d??</string>
+    <string name="session_only_progress_desc">\?�fa???e? t? p???d? �??? ??a t? t????? ?????�et?? st?? e?d?p???se??, a?t? ??a ???????? t? s??ed??a</string>
+    <string name="auto_start_next_timer_desc">\?e???a t? ep?�e?? ?????�et?? �et? t?? d?a??p? e??? ???d????s�at??</string>
+    <string name="auto_start_next_timer">\??t?�at? ??a??? t?? ep?�e??? ?????�?t???</string>
+    <string name="secure_aod">\?sfa??? AOD</string>
+    <string name="secure_aod_desc">\??t?�at? ??e?d?�a t?? s?s?e?? s?? �et? ap? �?a ???? ??????, d?at????ta? pa??????a t? AOD ??at?</string>
+    <string name="timer_reset_message">\?????�et?? epa????e</string>
+    <string name="undo">\??a??es?</string>
+    <string name="focus_break_ratio">\??a????a est?as??-d?a?e?��at??</string>
+    <string name="focus_breakdown">\?????s? est?as??</string>
+    <string name="focus_breakdown_desc">\??s? d????e?a est?as?? se d?af??et???? ??e? t?? ?�??a?</string>
+    <string name="focus_history">\?st????? est?as??</string>
+    <string name="focus_history_desc">\?????s? est?as?? ???e �??a t?? p??????�e??? e�d?�?da?. ??ta st? ???f?�a �?a? ?�??a? ??a pe??ss?te?e? p????f???e?.</string>
+    <string name="less">\????te??</string>
+    <string name="show_chart">\?�f???s? ??af?�at??</string>
+    <string name="focus_history_heatmap">Heatmap ?st?????? est?as??</string>
+    <string name="focus_history_heatmap_desc">\?st????? est?as?? t?? pe?as�???? ?t??. ?a �a??te?a ???�ata a?apa??st??? �e?a??te?? d????e?a. ?? �??e? ?�ad?p?????ta? a?? �??a. ??ta se �?a �??a ??a pe??ss?te?e? p????f???e?.</string>
+    <string name="focus_history_calendar">\?�e??????? ?st?????? est?as??</string>
+    <string name="focus_history_calendar_desc">\?st????? est?as?? t?? pe?as�???? �??a. ?? �??e? t?? p??????�e??? �??a ep?s?�a????ta? �e d?af??et??? ???�a. ??ta �?a ?�e??�???a ??a pe??ss?te?e? p????f???e?.</string>
+    <string name="reset_data">\?pa?af??? stat?st????</string>
+    <string name="reset_data_dialog_title">\?pa?af??? ???? t?? stat?st????;</string>
+    <string name="reset_data_dialog_text">\??a ta ap????e?�??a stat?st??? ?a d?a??af??? �???�a. ?e? �p??e? ?a a?a??e?e?.</string>
+    <string name="back">\??s?</string>
 </resources>

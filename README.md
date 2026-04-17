@@ -1,21 +1,21 @@
 <p align="center">
-  <img src="showcase.png" alt="Zon - Enter Your Zone" width="800"/>
+  <img src="logo.webp" alt="Tomato+ - Enter Your Tomato+e" width="800"/>
 </p>
 
-<h1 align="center">Zon</h1>
+<h1 align="center">Tomato+</h1>
 
 <p align="center">
-  <b>Enter Your Zone.</b><br>
+  <b>Enter Your Tomato+e.</b><br>
   <i>A minimalist Pomodoro timer for Android</i>
 </p>
 
 <p align="center">
-  <a href="https://github.com/vrn7712/Zon/releases/latest">
-    <img src="https://img.shields.io/github/v/release/vrn7712/Zon?style=for-the-badge&logo=github&color=blue" alt="Release"/>
+  <a href="https://github.com/ssethhyy/TomatoPlus/releases/latest">
+    <img src="https://img.shields.io/github/v/release/ssethhyy/TomatoPlus?style=for-the-badge&logo=github&color=blue" alt="Release"/>
   </a>
   <img src="https://img.shields.io/badge/Platform-Android-34A853?style=for-the-badge&logo=android&logoColor=white" alt="Platform"/>
   <img src="https://img.shields.io/badge/Min%20SDK-27-4285F4?style=for-the-badge" alt="Min SDK"/>
-  <img src="https://img.shields.io/badge/License-GPL%20v3-EA4335?style=for-the-badge" alt="License"/>
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License"/>
 </p>
 
 <p align="center">
@@ -51,8 +51,8 @@
 
 ### ✅ Task Management
 - **Built-in Task List** - Organize work items
-- **Subject Categories** - Math, Science, etc.
 - **Priority Levels** - High, Medium, Low
+- **Task Time Presets** - Set due dates with 1-tap
 - **Swipe to Delete** - Quick task removal
 
 ### 🎵 Focus Sounds
@@ -94,12 +94,12 @@
 
 ---
 
-## 🆚 Why Zon?
+## 🆚 Why Tomato+?
 
 <table>
 <tr>
 <th>Feature</th>
-<th align="center">Zon</th>
+<th align="center">Tomato+</th>
 <th align="center">Other Apps</th>
 </tr>
 <tr>
@@ -157,19 +157,19 @@
 ## 📥 Installation
 
 ### Option 1: Download APK
-Download the latest release from [GitHub Releases](https://github.com/vrn7712/Zon/releases/latest)
+Download the latest release from [GitHub Releases](https://github.com/ssethhyy/TomatoPlus/releases/latest)
 
 ### Option 2: Build from Source
 ```bash
 # Clone the repository
-git clone https://github.com/vrn7712/Zon.git
-cd Zon
+git clone https://github.com/ssethhyy/TomatoPlus.git
+cd TomatoPlus
 
 # Build the APK
 ./gradlew assembleFossDebug
 ```
 
-📦 APK location: `app/build/outputs/apk/foss/debug/zon.apk`
+📦 APK location: `app/build/outputs/apk/foss/debug/tomato-plus.apk`
 
 ---
 
@@ -196,7 +196,7 @@ cd Zon
 #### ✨ Features
 - Full Pomodoro timer with customizable sessions
 - Comprehensive statistics with charts and heatmaps
-- Task management with categories and priorities
+- Task management with presets and priorities
 - Manual focus time logging
 - Built-in focus sounds (Cozy Lofi, Study Music)
 - Home screen widgets
@@ -226,18 +226,18 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📄 License
 
-This project is licensed under the **GNU General Public License v3.0** - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
-> *Based on [Tomato](https://github.com/nsh07/Tomato) by Nishant Mishra.*
+> *Forked from [Tomato+](https://github.com/vrn7712/Tomato+) (originally forked from Tomato).*
 
 ---
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/vrn7712">Vrushal</a>
+  Made with ❤️ by <a href="https://github.com/ssethhyy">ssethhyy</a>
 </p>
 
 <p align="center">
-  <a href="https://vrn7712.github.io/zon-website/">Website</a> •
-  <a href="https://github.com/vrn7712/Zon/issues">Report Bug</a> •
-  <a href="https://github.com/vrn7712/Zon/issues">Request Feature</a>
+  <a href="https://github.com/ssethhyy/TomatoPlus">GitHub</a> •
+  <a href="https://github.com/ssethhyy/TomatoPlus/issues">Report Bug</a> •
+  <a href="https://github.com/ssethhyy/TomatoPlus/issues">Request Feature</a>
 </p>

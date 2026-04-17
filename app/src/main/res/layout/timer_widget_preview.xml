@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?><!--
-  ~ Copyright (c) 2025 Nishant Mishra
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2026 ssethhyy
   ~
-  ~ This file is part of Zon - a minimalist pomodoro timer for Android.
+  ~ This file is part of Tomato+ - a minimalist pomodoro timer for Android.
   -->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -19,7 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
-        android:orientation="horizontal">
+        android:orientation="horiTomato+tal">
 
         <ImageView
             android:layout_width="18dp"
@@ -69,7 +69,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:orientation="horizontal">
+        android:orientation="horiTomato+tal">
 
         <!-- Reset button -->
         <FrameLayout

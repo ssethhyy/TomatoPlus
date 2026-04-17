@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="dynamic">Dinamis</string>
     <string name="alarm">Alarm</string>
@@ -58,7 +58,7 @@
     <string name="sound">Suara</string>
     <string name="dnd">Jangan Ganggu</string>
     <string name="dnd_desc">Aktifkan mode Jangan Ganggu ketika timer Fokus berjalan</string>
-    <string name="get_plus">Dapatkan Zon+</string>
+    <string name="get_plus">Dapatkan Tomato++</string>
     <string name="dynamic_color">Warna dinamis</string>
     <string name="dynamic_color_desc">Sesuaikan warna tema dari wallpaper perangkat</string>
     <string name="language">Bahasa</string>

@@ -1,18 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?><!--
-  ~ Copyright (c) 2025 Nishant Mishra
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2025-2026 ssethhyy
   ~
-  ~ This file is part of Zon (forked from Tomato) - a minimalist pomodoro timer for Android.
+  ~ This file is part of Tomato+ - a minimalist pomodoro timer for Android.
   ~
-  ~ Zon is free software: you can redistribute it and/or modify it under the terms of the GNU
-  ~ General Public License as published by the Free Software Foundation, either version 3 of the
-  ~ License, or (at your option) any later version.
-  ~
-  ~ Zon is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even
-  ~ the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
-  ~ Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License along with Zon.
-  ~ If not, see <https://www.gnu.org/licenses/>.
+  ~ Tomato+ is free software: you can redistribute it and/or modify it under the terms of the MIT License.
+  ~ See the LICENSE file in the project root for more information.
   -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
@@ -29,7 +21,7 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
-        android:name=".ZonApplication"
+        android:name=".TomatoPlusApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:enableOnBackInvokedCallback="true"
@@ -37,12 +29,12 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Zon"
+        android:theme="@style/Theme.TomatoPlus"
         tools:targetApi="36">
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.Zon">
+            android:theme="@style/Theme.TomatoPlus">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

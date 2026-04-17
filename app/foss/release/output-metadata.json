@@ -13,7 +13,7 @@
       "attributes": [],
       "versionCode": 1,
       "versionName": "1.0 Flow",
-      "outputFile": "zon.apk"
+      "outputFile": "Tomato+.apk"
     }
   ],
   "elementType": "File",
@@ -22,14 +22,14 @@
       "minApi": 28,
       "maxApi": 30,
       "baselineProfiles": [
-        "baselineProfiles/1/zon.dm"
+        "baselineProfiles/1/Tomato+.dm"
       ]
     },
     {
       "minApi": 31,
       "maxApi": 2147483647,
       "baselineProfiles": [
-        "baselineProfiles/0/zon.dm"
+        "baselineProfiles/0/Tomato+.dm"
       ]
     }
   ],

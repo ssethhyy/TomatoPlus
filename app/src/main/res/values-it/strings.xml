@@ -1,4 +1,4 @@
-Ôªø<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="start">Inizia</string>
     <string name="stop">Ferma</string>
@@ -33,16 +33,16 @@
     <string name="settings">Impostazioni</string>
     <string name="session_length">Lunghezza sessione</string>
     <string name="session_length_desc">Intervalli di concentrazione per sessione: %1$d</string>
-    <string name="pomodoro_info">Una \"sessione\" √® una sequenza di intervalli \"pomodoro\" che include intervalli di concentrazione, di pausa breve, e di pausa lunga. L\'ultima pausa di una sessione √® sempre una pausa lunga.</string>
+    <string name="pomodoro_info">Una \"sessione\" Ë una sequenza di intervalli \"pomodoro\" che include intervalli di concentrazione, di pausa breve, e di pausa lunga. L\'ultima pausa di una sessione Ë sempre una pausa lunga.</string>
     <string name="stats">Statistiche</string>
     <string name="today">Oggi</string>
     <string name="break_">Pausa</string>
     <string name="last_week">Ultima settimana</string>
     <string name="focus_per_day_avg">concentrazione al giorno (media)</string>
-    <string name="more_info">Pi√π informazioni</string>
+    <string name="more_info">Pi˘ informazioni</string>
     <string name="last_month">Ultimo mese</string>
     <string name="stop_alarm_question">Ferma allarme?</string>
-    <string name="stop_alarm_dialog_text">Il timer per la sessione corrente √® scaduto. Tocca in qualsiasi punto per fermare la sveglia.</string>
+    <string name="stop_alarm_dialog_text">Il timer per la sessione corrente Ë scaduto. Tocca in qualsiasi punto per fermare la sveglia.</string>
     <string name="timer_session_count">%1$d di %2$d</string>
     <string name="more">Altro</string>
     <string name="pause">Pausa</string>
@@ -53,16 +53,16 @@
     <string name="timer">Timer</string>
     <string name="timer_progress">Progresso timer</string>
     <string name="last_year">L\'anno scorso</string>
-    <string name="always_on_display_desc">Tocca un punto qualsiasi durante la visualizzazione del timer per passare alla modalit√† AOD</string>
+    <string name="always_on_display_desc">Tocca un punto qualsiasi durante la visualizzazione del timer per passare alla modalit‡ AOD</string>
     <string name="appearance">Aspetto</string>
     <string name="sound">Suono</string>
     <string name="dnd">Non disturbare</string>
-    <string name="get_plus">Ottieni Zon+</string>
+    <string name="get_plus">Ottieni Tomato++</string>
     <string name="dynamic_color_desc">Adatta i colori del tema dal tuo sfondo</string>
     <string name="language">Lingua</string>
     <string name="choose_language">Scegli la lingua</string>
     <string name="durations">Durate</string>
-    <string name="dnd_desc">Attiva la modalit√† non disturbare quando avvii un timer di concentrazione.</string>
+    <string name="dnd_desc">Attiva la modalit‡ non disturbare quando avvii un timer di concentrazione.</string>
     <string name="rate_on_google_play">Valuta su Google Play</string>
     <string name="selected">Selezionato</string>
     <string name="dynamic_color">Colore dinamico</string>

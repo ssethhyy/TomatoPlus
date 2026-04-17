@@ -1,18 +1,48 @@
+# Build artifacts
+bin/
+gen/
+out/
+build/
+.gradle/
+.kotlin/
+
+# IDE files
+.idea/
 *.iml
-.gradle
-.idea
-.kotlin
-build
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+*.ipr
+*.iws
+.project
+.settings/
+.classpath
+.factorypath
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+Thumbs.db
+*.bak
+
+# Android specific
+/local.properties
+/captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aar
+*.ap_
+*.dex
+
+# Signing & Secrets
+*.jks
+*.keystore
+*.p12
+signing.properties
+google-services.json
+secrets.xml
+
+# User specific
+.navigation/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries/
+.idea/caches/
+.idea/navEditor.xml

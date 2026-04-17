@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="logo.webp" alt="Tomato+ - Enter Your Tomato+e" width="800"/>
+  <img src="logo.svg" alt="Tomato+ - Elevate Your Productivity" width="400"/>
 </p>
 
 <h1 align="center">Tomato+</h1>
 
 <p align="center">
-  <b>Enter Your Tomato+e.</b><br>
-  <i>A minimalist Pomodoro timer for Android</i>
+  <b>Master your time. Elevate your focus.</b><br>
+  <i>A sleek, high-performance Pomodoro companion for Android</i>
 </p>
 
 <p align="center">
@@ -19,222 +19,74 @@
 </p>
 
 <p align="center">
-  <a href="#-features">Features</a> •
-  <a href="#-screenshots">Screenshots</a> •
-  <a href="#-installation">Installation</a> •
-  <a href="#️-tech-stack">Tech Stack</a> •
-  <a href="#-changelog">Changelog</a>
+  <a href="#-core-capabilities">Capabilities</a> •
+  <a href="#-getting-started">Installation</a> •
+  <a href="#️-built-with">Tech Stack</a> •
+  <a href="#-license">License</a>
 </p>
 
 ---
 
-## ✨ Features
+## 🚀 Core Capabilities
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### ⚡ Built for Speed
+- **Ultra-Smooth 120Hz** - Experience fluid animations with adaptive refresh rate support tailored for modern displays.
+- **Battery-Aware Logic** - Intelligent background scaling ensures your timer stays accurate without draining your device.
+- **Pure Privacy** - Zero ads, zero trackers, and 100% offline functionality.
 
-### 🎯 Focus Timer
-- **Pomodoro Technique** - Work in focused intervals
-- **Customizable Sessions** - Set your own durations
-- **Timer Presets** - Save multiple configurations
-- **Auto-start** - Seamless workflow continuation
+### 🧠 Mindful Focus
+- **Flexible Sessions** - Easily adjust focus and break durations to match your personal rhythm.
+- **GitHub-Powered Profiles** - Automatically syncs your profile picture from GitHub for a personal touch.
+- **Curated Soundscapes** - High-quality ambient tracks designed to help you enter a state of flow.
 
-### 📊 Statistics & Analytics
-- **Daily/Weekly/Monthly Charts** - Visualize trends
-- **Yearly Heatmap** - GitHub-style calendar
-- **Time-of-Day Breakdown** - Peak productivity insights
-- **Manual Time Logging** - Add offline focus time
+### 📈 Meaningful Progress
+- **Visual Trends** - Interactive charts provide a clear view of your daily and weekly productivity streaks.
+- **Activity Heatmaps** - Track long-term growth with a comprehensive, GitHub-inspired contribution calendar.
+- **Integrated To-Do** - Align your tasks directly with your timer to keep your goals in sight.
 
-</td>
-<td width="50%" valign="top">
-
-### ✅ Task Management
-- **Built-in Task List** - Organize work items
-- **Priority Levels** - High, Medium, Low
-- **Task Time Presets** - Set due dates with 1-tap
-- **Swipe to Delete** - Quick task removal
-
-### 🎵 Focus Sounds
-- **Ambient Music** - Relaxing backgrounds
-- **Built-in Tracks** - Cozy Lofi, Study Music
-- **Custom Audio** - Use your own files
-- **Media Controls** - Play/pause from notification
-
-</td>
-</tr>
-</table>
-
-<details>
-<summary><b>📱 More Features</b></summary>
-
-### 🔔 Notifications & Alerts
-- Session complete alerts with custom sounds
-- Vibration feedback for silent environments
-- Auto Do Not Disturb during focus
-
-### 📱 Home Screen Widgets
-- Timer control widget
-- Daily stats widget
-- Weekly history widget
-
-### 🎨 Appearance
-- Material 3 Expressive design
-- Dynamic colors (Android 12+)
-- Light, Dark & AMOLED themes
-- Custom accent colors
-
-### ⚙️ Other
-- Always-On Display support
-- Backup & Restore
-- 15+ languages
-- Completely offline, no ads
-
-</details>
+### 📱 Premium Android Design
+- **Material You** - A beautiful, expressive UI that adapts to your system's dynamic colors.
+- **Glance Widgets** - Control your sessions and view stats directly from your home screen.
+- **True Dark Mode** - Optimized for AMOLED screens to minimize eye strain and save power.
 
 ---
 
-## 🆚 Why Tomato+?
+## 📥 Getting Started
 
-<table>
-<tr>
-<th>Feature</th>
-<th align="center">Tomato+</th>
-<th align="center">Other Apps</th>
-</tr>
-<tr>
-<td>🚫 <b>No Ads</b></td>
-<td align="center">✅</td>
-<td align="center">❌</td>
-</tr>
-<tr>
-<td>📵 <b>Works Offline</b></td>
-<td align="center">✅</td>
-<td align="center">❌</td>
-</tr>
-<tr>
-<td>🔓 <b>Open Source</b></td>
-<td align="center">✅</td>
-<td align="center">❌</td>
-</tr>
-<tr>
-<td>💰 <b>All Features Free</b></td>
-<td align="center">✅</td>
-<td align="center">❌</td>
-</tr>
-<tr>
-<td>🔒 <b>Privacy Focused</b></td>
-<td align="center">✅</td>
-<td align="center">❌</td>
-</tr>
-<tr>
-<td>📱 <b>Home Screen Widgets</b></td>
-<td align="center">✅</td>
-<td align="center">⚠️</td>
-</tr>
-<tr>
-<td>🎵 <b>Focus Sounds</b></td>
-<td align="center">✅</td>
-<td align="center">⚠️</td>
-</tr>
-<tr>
-<td>✅ <b>Built-in Tasks</b></td>
-<td align="center">✅</td>
-<td align="center">⚠️</td>
-</tr>
-</table>
+### Download APK
+Grab the latest stable build from the [GitHub Releases](https://github.com/ssethhyy/TomatoPlus/releases/latest) page.
 
----
-
-## 📸 Screenshots
-
-<p align="center">
-  <i>Coming soon</i>
-</p>
-
----
-
-## 📥 Installation
-
-### Option 1: Download APK
-Download the latest release from [GitHub Releases](https://github.com/ssethhyy/TomatoPlus/releases/latest)
-
-### Option 2: Build from Source
+### Build from Source
 ```bash
-# Clone the repository
+# Clone the project
 git clone https://github.com/ssethhyy/TomatoPlus.git
 cd TomatoPlus
 
-# Build the APK
+# Generate the APK
 ./gradlew assembleFossDebug
 ```
 
-📦 APK location: `app/build/outputs/apk/foss/debug/tomato-plus.apk`
-
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Built With
 
 | Category | Technology |
 |----------|------------|
 | **Language** | ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white) |
-| **UI Framework** | ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white) |
-| **Design System** | ![Material 3](https://img.shields.io/badge/Material%203-757575?style=flat-square&logo=materialdesign&logoColor=white) |
-| **Architecture** | MVVM + StateFlow |
-| **Database** | ![Room](https://img.shields.io/badge/Room-4285F4?style=flat-square&logo=android&logoColor=white) |
-| **Media Playback** | Media3 ExoPlayer |
+| **UI** | ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white) |
+| **Design** | ![Material 3](https://img.shields.io/badge/Material%203-757575?style=flat-square&logo=materialdesign&logoColor=white) |
+| **Pattern** | MVVM + StateFlow |
+| **Media** | Media3 ExoPlayer |
 | **Widgets** | Glance AppWidget |
-| **Build System** | ![Gradle](https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white) |
-
----
-
-## 📋 Changelog
-
-### v1.0 Flow (January 2026)
-> *Initial Release*
-
-#### ✨ Features
-- Full Pomodoro timer with customizable sessions
-- Comprehensive statistics with charts and heatmaps
-- Task management with presets and priorities
-- Manual focus time logging
-- Built-in focus sounds (Cozy Lofi, Study Music)
-- Home screen widgets
-- Material 3 Expressive UI with dynamic colors
-- Backup & restore functionality
-- 15+ language translations
-
-#### 🔧 Technical
-- Migrated to Jetpack Compose
-- Room database for persistence
-- Kotlin Coroutines & Flow
-- Media3 for audio playback
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+| **Storage** | Room |
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-> *Forked from [Tomato+](https://github.com/vrn7712/Tomato+) (originally forked from Tomato).*
+This software is distributed under the **MIT License**. View the [LICENSE](LICENSE) file for the full text.
 
 ---
-
-<p align="center">
-  Made with ❤️ by <a href="https://github.com/ssethhyy">ssethhyy</a>
-</p>
 
 <p align="center">
   <a href="https://github.com/ssethhyy/TomatoPlus">GitHub</a> •
